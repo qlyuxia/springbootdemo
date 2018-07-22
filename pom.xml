@@ -6,7 +6,10 @@
 	<groupId>com.qyx.test</groupId>
 	<artifactId>springbootdemo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<modules>
+		<module>ChildDemo</module>
+	</modules>
+	<packaging>pom</packaging>
 
 	<name>springbootdemo</name>
 	<description>Demo project for Spring Boot</description>
@@ -39,6 +42,12 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>com.qyx.test</groupId>
+			<artifactId>ChildDemo</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
 
