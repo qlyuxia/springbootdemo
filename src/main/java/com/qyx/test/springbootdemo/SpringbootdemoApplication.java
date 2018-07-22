@@ -1,7 +1,6 @@
 package com.qyx.test.springbootdemo;
 
 import org.springframework.beans.factory.InitializingBean;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
@@ -14,11 +13,10 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 @RequestMapping("test")
 public class SpringbootdemoApplication {
-
-	@RequestMapping("hello")
+    @RequestMapping("hello")
 	@ResponseBody
 	public String test(){
-		return "Hello World!";
+        return "Hello World!,My name is Qi yuxia";
 	}
 
 	@Bean
