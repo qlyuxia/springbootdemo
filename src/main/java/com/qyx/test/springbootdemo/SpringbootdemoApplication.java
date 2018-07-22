@@ -36,7 +36,7 @@ public class SpringbootdemoApplication {
 		}
 
 		public void test(){
-			System.out.println("haha");
+            System.out.println("haha，胡峻峥，大傻逼！");
 		}
 	}
 }
