@@ -13,7 +13,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 @RequestMapping("test")
 public class SpringbootdemoApplication {
-    @RequestMapping("hello")
+	
+    	@RequestMapping("hello")
 	@ResponseBody
 	public String test(){
         return "Hello World!,My name is Qi yuxia";
